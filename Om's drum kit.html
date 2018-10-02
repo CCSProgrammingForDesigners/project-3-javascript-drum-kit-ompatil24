@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Om's drum kit</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="Om's drumkit.js"></script>
+    <h1>Om's Drum Kit</h1>
+</head>
+
+
+<body>
+
+    <audio src="sounds/kick.wav" autostart="false" id="kick"></audio>
+    <audio src="sounds/cowbell.wav" autostart="false" id="cowbell"></audio>
+    <audio src="sounds/clap.wav" autostart="false" id="clap"></audio>
+    <audio src="sounds/tom.wav" autostart="false" id="tom"></audio>
+    <audio src="sounds/cymbal.wav" autostart="false" id="cymbal"></audio>
+    <audio src="sounds/hihatopen.wav" autostart="false" id="hihatopen"></audio>
+    <audio src="sounds/hihatclosed.wav" autostart="false" id="hihatclosed"></audio>
+    <audio src="sounds/snare.wav" autostart="false" id="snare"></audio>
+
+
+    <div class="container">
+        <div class="button" onclick="playSample('kick')">Kick</div>
+        <div class="button" onclick="playSample('cowbell')">cowbell</div>
+        <div class="button" onclick="playSample('clap')">clap</div>
+        <div class="button" onclick="playSample('tom')">tom</div>
+        <div class="button" onclick="playSample('cymbal')">cymbal</div>
+        <div class="button" onclick="playSample('hihatopen')">hihatopen</div>
+        <div class="button" onclick="playSample('hihatclosed')">hihatclosed</div>
+        <div class="button" onclick="playSample('snare')">snare</div>
+    </div>
+
+
+
+
+</body>
+
+</html>
